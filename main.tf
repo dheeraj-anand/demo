@@ -24,7 +24,7 @@ resource "google_storage_bucket" "my_bucket" {
   # Optional: Lifecycle rule to delete files after 30 days
   lifecycle_rule {
     condition {
-      age = 31
+      age = 28
     }
     action {
       type = "Delete"
